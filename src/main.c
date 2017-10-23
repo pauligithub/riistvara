@@ -5,7 +5,6 @@
 
 void main (void)
 {
-    /* Set port B pin 7 for output for Arduino Mega yellow LED */
     DDRA |= _BV(DDA0);
     DDRA |= _BV(DDA2);
     DDRA |= _BV(DDA4);
